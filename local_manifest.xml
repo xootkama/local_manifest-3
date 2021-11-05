@@ -3,9 +3,9 @@
         
     <remote  name="aashiq-exe" fetch="https://github.com/aashiq-exe" />
         <!-- Sync trees -->
-        <remove-project name="device/generic/opengl-transport" />
         <project path="device/realme/RMX1851" name="evolutionX_realme_RMX1851" remote="aashiq-exe" revision="eleven" clone-depth="1" />
+        <project path="device/realme/sdm710-common" name="device_realme_sdm710-common" remote="aashiq-exe" revision="eleven" clone-depth="1" />
         <project path="vendor/realme/RMX1851" name="vendor_realme_RMX1851" remote="aashiq-exe" revision="eleven" clone-depth="1" />
-        <project path="kernel/realme/RMX1851" name="kernel_realme_RMX1851-2" remote="aashiq-exe" revision="eleven" clone-depth="1" />
+        <project path="kernel/realme/RMX1851" name="kernel_realme_RMX1851" remote="aashiq-exe" revision="eleven" clone-depth="1" />
         
 </manifest> 
